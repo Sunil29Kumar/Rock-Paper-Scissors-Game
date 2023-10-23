@@ -40,7 +40,7 @@ function playerRound(playerSelection, computerSelection) {
     }
     else {
         compScore++;
-        result.innerHTML = "you loose!  " + playerSelection + "  beats " + computerSelection;
+        result.innerHTML = "you loose!  " + computerSelection +"  beats " +playerSelection ;
         computerResult.innerHTML = compScore;
     }
 
