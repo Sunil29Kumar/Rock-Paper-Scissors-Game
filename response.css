@@ -1,0 +1,62 @@
+@media (max-width: 900px) {
+    .container:hover {
+        border-top-right-radius: 5rem;
+        border-bottom-left-radius: 5rem;
+    }
+
+    .container h1 {
+        font-size: 2.5rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .container {
+        padding: 1rem 2rem;
+    }
+
+    }
+
+
+
+    @media (max-width: 600px){
+        .container {
+            padding: 1rem 1rem;
+        }
+        .container h1 {
+            font-size: 2rem;
+        }
+        .choice{
+            font-size: 1.4rem;
+            margin-top: .6rem;
+        }
+        #result{
+            font-size: 1.2rem;
+        }
+    }
+
+
+    @media (max-width: 450px){
+        .container h1 {
+            font-size: 1.5rem;
+        }
+        .container .button #rock{
+            font-size: 2rem;
+        }
+        .container .button #paper{
+            font-size: 2.5rem;
+        }
+        .container .button #scissors{
+            font-size: 3rem;
+        }
+        #result{
+            font-size: 1rem;
+        }
+        .choice{
+            font-size: 1.2rem;
+            margin-top: .6rem;
+        
+    }
+}
